@@ -1,3 +1,5 @@
+
+//MessageForm
 import {useState} from 'react';
 import {sendMessage,isTyping} from 'react-chat-engine';
 import {SendOutlined, PictureOutlined} from '@ant-design/icons'
@@ -25,6 +27,7 @@ const MessageForm = (props) => {
   const handleUpload = (event) => {
     sendMessage(creds,chatId, {files: event.target.files, text: ''})
   }
+
 
   return(
     <form className="message-form" onSubmit={handleSubmit}>
