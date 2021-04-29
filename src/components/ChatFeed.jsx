@@ -18,10 +18,10 @@ const ChatFeed = (props) => {
       return(
         <div key = {`msg_${index}`} style = {{width: '100%'}}>
           <div className = "message-block">
-            {
-              isMyMessage ?  <MyMessage /> : <TheirMessage message={message} lastMessage = {messages[lastMessageKey]} />
-            }
-          </div>
+            {isMyMessage 
+              ?  <MyMessage message={message} /> 
+              : <TheirMessage message={message} lastMessage = {messages[lastMessageKey]} />}
+          </div> 
           <div className = "read-receipts" style={{marginRight: isMyMessage ? '18px' : '0px', marginLeft: isMyMessage ? '0px' : '68px'}}></div>
             read-receipts
         </div>
@@ -40,7 +40,7 @@ const ChatFeed = (props) => {
           {chat?.title}
         </div>
         <div className="chat-subtitle">
-          {chat.people.map((person)=>`person.person.username`)}
+          {chat.people.map((person)=>` ${person.person.username} `)}
         </div>
     </div>
 
