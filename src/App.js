@@ -8,8 +8,8 @@ const App = () => {
   return (
 		<ChatEngine
 			height='100vh'
-			userName={process.env.REACT_APP_USERNAME}
-			userSecret={process.env.REACT_APP_USER_SECRET}
+			userName={localStorage.getItem('username')}
+			userSecret={localStorage.getItem('password')}
 			projectID={process.env.REACT_APP_PROJECT_ID}
       renderChatFeed={(chatAppProps)=><ChatFeed {...chatAppProps} />}
 		/>
