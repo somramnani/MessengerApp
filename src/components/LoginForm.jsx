@@ -8,7 +8,6 @@ const LoginForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const authObject = {'Project-ID': process.env.REACT_APP_PROJECT_ID, 'User-Name': username, 'User-Secret': password };
     
     try{
@@ -16,12 +15,11 @@ const LoginForm = () => {
       
       localStorage.setItem('username', username);
       localStorage.setItem('password', password);
-      
+    
       window.location.reload();
 
-    }catch(error){
+    } catch(error){
       setError('Oops, incorrect credentials.');
-
     }
   }
 
