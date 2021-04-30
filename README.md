@@ -30,3 +30,4 @@ A Slack clone that allows users to commuicate with each other
 
 ## :framed_picture: Images
 ![](public/LoginForm.png)
+![](public/ChatFeed.png)
