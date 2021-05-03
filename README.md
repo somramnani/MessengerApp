@@ -1,6 +1,6 @@
 # Messenger App
 
-A React application that uses Chat Engine Rest API
+A React application that uses the Chat Engine REST API 
 
 ## :clipboard: Table of contents
 
