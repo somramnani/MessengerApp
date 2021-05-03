@@ -23,7 +23,7 @@ A Slack clone that allows users to commuicate with each other
 - API's:
   - Chat Engine
   
- &#x1f4f2; Features
+##  &#x1f4f2; Features
 - Users can send messages & images
 
 
