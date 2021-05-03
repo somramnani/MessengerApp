@@ -7,7 +7,7 @@ A React application that uses Chat Engine Rest API
 - [ &#128161; Purpose](#-purpose)
 - [&#x1f527; Technologies & Tools](#-technology--tools)
 - [&#x1f4f2; Features](#-features) 
-[:framed_picture: Images](#framed_picture-images)
+- [:framed_picture: Images](#framed_picture-images)
 
 ## &#128161; Purpose
 A Slack clone that allows users to commuicate with each other
